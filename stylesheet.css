@@ -25,7 +25,7 @@ body
 	width: 100%;
 	margin: 0px;
 	padding-top: -10px;
-	color:white;	
+	color: 	#E6E6FA;	
 	 background-image: url("images/bg_top_repeat.jpg");
     background-position: center top;
     background-repeat: repeat-x;
@@ -54,7 +54,7 @@ body
 	list-style:none;	
 	margin-right:20px;
 	padding-right:15px;	
-	color:white;
+	color: 	#E6E6FA;
 	
 }
 .menu li:after
@@ -153,14 +153,14 @@ pre,p
 {
 	height:700px;
     background-image: url("images/bg_top_repeat.jpg");		
-	color: white;
+	color: #E6E6FA;
    
 }
  #menu-title{
 	font-size: 18px;
 	font-weight: bold;
-	border-bottom:1px dotted white;
-	color:white;
+	border-bottom:1px dotted  	#E6E6FA;
+	color:#E6E6FA;
 	padding:20px;
 	
 }
