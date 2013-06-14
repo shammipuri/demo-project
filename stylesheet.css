@@ -5,10 +5,8 @@ body
 {
 	margin:0px;
 	padding:0px;
-	 background-color: #F7FCF8;
-    background-image: url("images/bg.jpg");
-    background-position: center top;
-    background-repeat: repeat-x;
+	background-color: #F7FCF8;
+   
     color: #232323;
 	
 	
@@ -26,8 +24,11 @@ body
 {
 	width: 100%;
 	margin: 0px;
-	padding: 0px;
-	color:#191970;	
+	padding-top: -10px;
+	color:white;	
+	 background-image: url("images/bg_top_repeat.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
 	
 }
 .span12
@@ -36,7 +37,7 @@ body
 	font-weight:bold;
 	padding-top:5%;
 	padding-bottom:2%;
-	text-align:center;
+	
 	
 }
 .menu
@@ -53,7 +54,7 @@ body
 	list-style:none;	
 	margin-right:20px;
 	padding-right:15px;	
-	color:#191970;
+	color:white;
 	
 }
 .menu li:after
@@ -69,13 +70,9 @@ body
 {
 	text-decoration:none;
 	color:inherit;
-	background-image: url(images/menu.jpg) no-repeat;
+	
 }
-.content .span3
-{
-	height:100%;
-	border-right: 1px dashed black;
-}
+
 
 .topic-list
 {
@@ -117,7 +114,7 @@ ul  ul, #submenu
 
 .content ul
 {
-	color:#191970;
+	
 	list-style:none;
 }
 .content ul a
@@ -151,4 +148,23 @@ pre,p
 .data
 {
 	display: none;
+}
+.span3
+{
+	height:700px;
+    background-image: url("images/bg_top_repeat.jpg");		
+	color: white;
+   
+}
+ #menu-title{
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom:1px dotted white;
+	color:white;
+	padding:20px;
+	
+}
+#menu-list
+{
+	padding: 20px;
 }
