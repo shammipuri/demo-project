@@ -5,11 +5,11 @@ body
 {
 	margin:0px;
 	padding:0px;
-	background-color: #F7FCF8;
-   
+	background-image:url("images/bg_top_repeat.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
+	
     color: #232323;
-	
-	
 }
 	
 .wrapper
@@ -26,9 +26,6 @@ body
 	margin: 0px;
 	padding-top: -10px;
 	color: 	#E6E6FA;	
-	 background-image: url("images/bg_top_repeat.jpg");
-    background-position: center top;
-    background-repeat: repeat-x;
 	
 }
 .span12
@@ -91,7 +88,7 @@ body
 }
 .content
 {
-	padding-top: 80px;
+	padding-top: 200px;
 }
 span
 {
