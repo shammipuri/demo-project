@@ -8,8 +8,7 @@ body
 	background-image:url("images/bg_top_repeat.jpg");
     background-position: center top;
     background-repeat: repeat-x;
-	
-    color: #232323;
+	color: #232323;
 }
 	
 .wrapper
@@ -34,8 +33,6 @@ body
 	font-weight:bold;
 	padding-top:5%;
 	padding-bottom:2%;
-	
-	
 }
 .menu
 {
@@ -164,4 +161,8 @@ pre,p
 #menu-list
 {
 	padding: 20px;
+}
+#data
+{
+	display: none;
 }

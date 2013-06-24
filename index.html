@@ -43,8 +43,8 @@
 		    </div>	
 		    <div class="row-fluid" id="menu-list">
 		    <ul>
-		   	  <li><a href="#" onclick="show(1)">HTML</a>
- 			    <ul id="submenu1">
+		   	  <li><a href="http://www.html.net/tutorials/html/" onclick="show(1)" target="data">HTML</a>
+ 			<!--    <ul id="submenu1">
 				  <li><a href="">-Basic Text Formatting Elements</a></li>
 				  <li><a href="">-Presentational Elements</a></li>
 				  <li><a href="">-List</a></li>
@@ -54,9 +54,10 @@
 				  <li><a href="">-Form</a></li>
 				  <li><a href="">-Frame</a></li>
 				</ul>
+			-->
 		 	  </li>
-		 	  <li><a href="#" onclick="show(2)">CSS</a>
-		 	    <ul id="submenu2">
+		 	  <li><a href="http://www.html.net/tutorials/css/" onclick="show(2)" target="data">CSS</a>
+		 	   <!-- <ul id="submenu2">
 				  <li><a href="">-CSS Properties</a></li>
 				  <li><a href="">-Controlling Text </a></li>
 				  <li><a href="">-Text Pseudo Classes</a></li>
@@ -65,9 +66,10 @@
 				  <li><a href="">-Tables</a></li>
 				  <li><a href="">-Outlines</a></li>
 				</ul>
+			-->	
 			  </li>
-			  <li><a href="#" onclick="show(3)">Javascript</a>
-			    <ul id="submenu3">
+			  <li><a href="http://www.html.net/tutorials/javascript/" onclick="show(3)" target="data">Javascript</a>
+			   <!-- <ul id="submenu3">
 				  <li><a href="">-How to add script to a web page</a></li>
 				  <li><a href="">-DOM</a></li>
 				  <li><a href="">-Javascript Variables</a></li>
@@ -79,6 +81,7 @@
 				  <li><a href="">-Form Validations</a></li>
 				  <li><a href="">-Javascript Library</a></li>
 				</ul>
+			-->
               </li>
 	      	</ul>
 	      </div><!--End of row-fluid class-->	
@@ -86,23 +89,20 @@
       
 	      <div class="span8 pull-right">
 		    <div class="row-fluid  web-technologies">
-			  <div><span>HTML</span>
+		    	<div><iframe name="data" id="data"></iframe></div>
+			  <div id="description"><span><a href="http://www.html.net/tutorials/html/" onclick="show(3)" target="data">HTML</a></span>
 			    <p>
 				  Short for HyperText Markup Language, the authoring language used to create documents on the World Wide Web. HTML is similar to SGML, although it is not a strict subset.
-                  HTML defines the structure and layout of a Web document by using a variety of tags and attributes. The correct structure for an HTML document starts with <HTML><HEAD>(enter here what document is about)<BODY> and ends with </BODY></HTML>. All the information you'd like to include in your Web page fits in between the <BODY> and </BODY> tags.
+                  HTML defines the structure and layout of a Web document by using a variety of tags and attributes. The correct structure for an HTML document starts with <HTML><HEAD>(enter here what document is about)</head><BODY> and ends with </BODY></HTML>. All the information you'd like to include in your Web page fits in between the <BODY> and </BODY> tags.
 
 				  There are hundreds of other tags used to format and layout the information in a Web page. Tags are also used to specify hypertext links. These allow Web developers to direct users to other Web pages with only a click of the mouse on either an image or word(s).
 				</p>
-		      </div>
-			  <div>
-				<span>CSS</span>
+		     	<span><a href="http://www.html.net/tutorials/css/" onclick="show(3)" target="data">CSS</a></span>
 				<p>CSS, or Cascading Styles Sheets, is a way to style and present HTML. Whereas the HTML is the meaning or content, the style sheet is the presentation of that document.
 
 				Styles don’t smell or taste anything like HTML, they have a format of ‘property: value’ and most properties can be applied to most HTML tags.
 				</p>
-			  </div>
-			  <div>
-			    <span>Java Script</span>
+			    <span><a href="http://www.html.net/tutorials/javascript/" onclick="show(3)" target="data">Java Script</a></span>
 				<p>JavaScript is a programming language used to make web pages interactive. It runs on your visitor's computer and doesn't require constant downloads from your website. JavaScript is often used to create polls and quizzes.
 				 	
 				 	<b>Common uses of JavaScript include:</b>
@@ -115,7 +115,7 @@
     			  </ul>
 				    JavaScript usually runs on the client-side (the browser's side), as opposed to server-side (on the web server). One benefit of doing this is performance. On the client side, JavaScript is loaded into the browser and can run as soon as it is called. Without running on the client side, the page would need to refresh each time you needed a script to run.
 				</p>
-			  </div>	
+			  </div><!--End of description row-->	
 			</div><!--End of row div webtechnologies-->
 	      </div><!--End of span9 div-->
 	   	</div><!--End of content row-fluid div-->						
